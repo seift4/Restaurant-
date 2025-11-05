@@ -442,6 +442,7 @@ form button {
 
   /* Mobile Devices */
   @media (max-width: 600px) {
+    
     #navbar {
       flex-direction: column;
     }
@@ -479,7 +480,18 @@ form button {
       flex-direction: column;
     }
 
-    #menu .menu-items .menu-item {
+    .top h2{
+      position: relative;
+      bottom: 80px;
+    }
+    .top p{
+            position: relative;
+      bottom: 100px;
+    }
+    .men-item {
+      height: 60px;
+      position: relative;
+      bottom: 100px;
       margin: 20px 10px;
     }
 
@@ -492,6 +504,15 @@ form button {
     #daytime .daytime-items .daytime-item {
       margin-top: 20px;
     }
+    .gall h2{  
+      font-size: 40px;
+      position: relative;
+      bottom: 30px;
+      }
+      .gall img{
+        height: 130px;
+        width: 120px;
+      }
 
     #contact .contact-info,
     form {
