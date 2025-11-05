@@ -471,6 +471,25 @@ form button {
       display: none;
     }
 
+    .imgg .h3{
+      
+      position: relative;
+      left: 50px;
+    }
+        .imgg .b3{
+      
+      position: relative;
+      left: 50px;
+    }
+       .imgg .s3{
+      
+      position: relative;
+      left: 50px;
+    }
+    .imgg img{
+      position: relative;
+      right: 30px;
+    }
     #offers {
       height: auto;
       padding: 30px 10px;
