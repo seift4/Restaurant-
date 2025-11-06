@@ -208,11 +208,16 @@ text-align: center;
     justify-content: space-evenly;
 }
 .imgg{
+  transition: .5s;
     position: relative;
     bottom: 50px;
     color: white;
-    width: 20%;
+    width: 19%;
  
+}
+.imgg h1 , .imgg span , .imgg p , .imgg s{
+  position: relative;
+  left: 25px;
 }
 .imgg span{
     color: #e4b95b;
@@ -306,10 +311,12 @@ text-align: center;
   width: 280px;
   height: 200px;
   border-radius: 15px;
-  opacity: 0.8;
+  opacity: 0.5;
 }
 .img-gallery img:hover {
   opacity: 1;
+  margin: 10px;
+  padding: 2px;
 }
 
 #contact {
@@ -393,7 +400,30 @@ form button {
   padding: 15px 0;
   font-size: 14px;
 }
+span{
+  display: inline-block;
+}
+span:hover{
+  padding: 5px;
+  border-radius: 12px;
+  box-shadow: 8px 8px 0 black;
+  background-color: #e4b95b;
+  color: black;
+  translate: 2 2;
+  cursor: cell;
+}
+.imgg:hover{
+  z-index: 1;
+  margin: 0 30px;
+  padding: 5px;
+  opacity: 1;
 
+}
+
+.imgg:hover h1{
+  text-shadow: 5px 5px 0 black;
+  color: #e4b95b;
+}
 @media (max-width: 1000px) {
   #navbar img {
     margin-left: 20px;
